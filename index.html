@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <script defer src="script.js"></script>
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+
+  <main>
+
+    <div class="user-move">
+      <i class="far"></i>
+    </div>
+    <div class="comp-move">
+      <i class="far"></i>
+    </div>
+
+    <div class="scoreboard-container">
+      <h2 class="user">user</h2>
+      <div class="blank1"></div>
+      <h2 class="comp">comp</h2>
+      <div class="blank2"></div>
+      <h2 class="score"><span class="user-score">0</span>:<span class="comp-score">0</span></h2>
+    </div>
+
+    <h1 class="commentary-text">Click here to start game!</h1>
+    <h1 class="result"></h1>
+
+    <div class="btn-container">
+      <button class="rock-btn game-btn">
+        <i class="far fa-hand-rock"></i>
+      </button>
+
+      <button class="paper-btn game-btn">
+        <i class="far fa-hand-paper"></i>
+      </button>
+
+      <button class="scissors-btn game-btn">
+        <i class="far fa-hand-scissors"></i>
+      </button>
+    </div>
+
+    <h3 class="instructions">Make your move.</h3>
+
+    <div class="modal-div">
+      <i class="modal-icon fas"></i>
+      <h1 class="modal-title"></h1>
+      <h1 class="modal-text"></h1>
+      <div class="modal-btn-container">
+        <button class="continue-btn"></button>
+        <button class="restart-btn"></button>
+      </div>
+    </div>
+    <div class="modal-overlay"></div>
+  </main>
+</body>
+</html>
